@@ -1,7 +1,28 @@
 aid: energaia
 name: EnerGaia
-description: EnerGaia is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EnerGaia is a spirulina producer, incorporated in Thailand in April 2009 and now headquartered
+  in Singapore, that grows nutrient-dense microalgae in proprietary closed bioreactors rather than
+  open ponds to deliver clean, consistent spirulina for food and beverage manufacturers. The
+  company originated from research into using microalgae to capture industrial CO2 from power-plant
+  flue gas and has since focused on making spirulina a mainstream, sustainable food ingredient. Its
+  product line includes Fresh Spirulina Paste, Fresh-Frozen Spirulina, and Freeze-Dried Spirulina
+  Powder, used in beverages, egg substitutes, noodles, meat replacements, pastas, and snacks.
+  EnerGaia is a portfolio company of 500 Global. It publishes no public API, developer portal, or
+  technical documentation; this profile is maintained as a company record in the API Evangelist
+  network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://energaia.com/wp-content/uploads/2019/08/EnerGaia_logo_small-1.png
 url: https://raw.githubusercontent.com/api-evangelist/energaia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Spirulina
+- Microalgae
+- Alternative Protein
+- Food Ingredients
+- Sustainability
+- Biotechnology
+- Food and Beverage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/energaia-domain-security.yml
 - type: Website
   url: https://energaia.com
+- type: About
+  url: https://energaia.com/about/
+- type: Support
+  url: https://energaia.com/contact-us/
+- type: PrivacyPolicy
+  url: https://energaia.com/privacy-policy/
+- type: TermsOfService
+  url: https://energaia.com/terms-and-conditions/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
